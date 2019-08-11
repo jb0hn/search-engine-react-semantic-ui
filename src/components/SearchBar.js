@@ -1,6 +1,8 @@
 import React from "react";
 
 class SearchBar extends React.Component {
+	state = { term: "" };
+
 	render() {
 		return (
 			<div className='ui segment center aligned'>
@@ -8,13 +10,22 @@ class SearchBar extends React.Component {
 					<i className='search icon' />
 					Search images
 				</div>
-				<div className='ui form'>
+				<form className='ui form'>
 					<div className='field'>
 						<div className='ui input'>
-							<input type='text' placeholder='Search...' />
+							<input
+								type='text'
+								placeholder='Search...'
+								value={this.state.term}
+								onChange={e =>
+									this.setState({
+										term: e.target.value
+									})
+								}
+							/>
 						</div>
 					</div>
-				</div>
+				</form>
 			</div>
 		);
 	}
