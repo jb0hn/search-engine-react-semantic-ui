@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/search-enigne-react-semantic-ui/static/js/main.b3265d21.chunk.js",
+    "main.js.map": "/search-enigne-react-semantic-ui/static/js/main.b3265d21.chunk.js.map",
+    "runtime~main.js": "/search-enigne-react-semantic-ui/static/js/runtime~main.7dc1f695.js",
+    "runtime~main.js.map": "/search-enigne-react-semantic-ui/static/js/runtime~main.7dc1f695.js.map",
+    "static/js/2.99d318b7.chunk.js": "/search-enigne-react-semantic-ui/static/js/2.99d318b7.chunk.js",
+    "static/js/2.99d318b7.chunk.js.map": "/search-enigne-react-semantic-ui/static/js/2.99d318b7.chunk.js.map",
+    "index.html": "/search-enigne-react-semantic-ui/index.html",
+    "precache-manifest.275d2794ddb1428b3cda4dadae388606.js": "/search-enigne-react-semantic-ui/precache-manifest.275d2794ddb1428b3cda4dadae388606.js",
+    "service-worker.js": "/search-enigne-react-semantic-ui/service-worker.js"
+  }
+}
