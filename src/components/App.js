@@ -1,9 +1,9 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import axios from "axios";
 
 import SearchBar from "./SearchBar";
 import ImageList from "./ImageList";
+import unsplash from "../api/unsplash";
 
 class App extends React.Component {
 	state = {
@@ -11,13 +11,9 @@ class App extends React.Component {
 	};
 
 	onSearchSubmit = async term => {
-		const response = await axios.get("https://api.unsplash.com/search/photos", {
+		const response = await unsplash.get("search/photos", {
 			params: {
 				query: term
-			},
-			headers: {
-				Authorization:
-					"Client-ID e62006d4251dd7354db1d650496c1460c1e7ff331a44ed7993f32ac757a1331f"
 			}
 		});
 		// console.log(this); debug: check if to what this property is assigned to
