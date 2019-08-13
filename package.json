@@ -2,7 +2,7 @@
 	"name": "pics",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://jb0hn.github.io/search-enigne-react-semantic-ui",
+	"homepage": "https://jb0hn.github.io/search-engine-react-semantic-ui/",
 	"dependencies": {
 		"axios": "^0.19.0",
 		"gh-pages": "^2.1.1",
