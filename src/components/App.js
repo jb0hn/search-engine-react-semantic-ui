@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 
 import SearchBar from "./SearchBar";
 import ImageList from "./ImageList";
+import Message from "./Message";
 import unsplash from "../api/unsplash";
 
 class App extends React.Component {
@@ -24,6 +25,7 @@ class App extends React.Component {
 	render() {
 		return (
 			<div className='ui container' style={{ marginTop: "10px" }}>
+				<Message />
 				<Helmet bodyAttributes={{ style: "background-color : #263238" }} />
 				<SearchBar onSubmit={this.onSearchSubmit} />
 				<ImageList images={this.state.images} />
