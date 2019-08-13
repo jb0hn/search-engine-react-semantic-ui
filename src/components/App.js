@@ -1,12 +1,23 @@
 import React from "react";
-import SearchBar from "./SearchBar";
+import Helmet from "react-helmet";
 
-const App = () => {
-	return (
-		<div className='ui container' style={{ marginTop: "10px" }}>
-			<SearchBar />
-		</div>
-	);
-};
+import SearchBar from "./SearchBar";
+import ImageList from "./ImageList";
+
+class App extends React.Component {
+	onSearchSubmit(term) {
+		console.log(term);
+	}
+
+	render() {
+		return (
+			<div className='ui container' style={{ marginTop: "10px" }}>
+				<Helmet bodyAttributes={{ style: "background-color : #fff" }} />
+				<SearchBar onSubmit={this.onSearchSubmit} />
+				<ImageList />
+			</div>
+		);
+	}
+}
 
 export default App;
