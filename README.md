@@ -4,4 +4,4 @@ An image search application fetching images and photos from the [Unsplash](https
 
 ## Check it out
 
-https://jb0hn.github.io/search-enigne-react-semantic-ui
+https://jb0hn.github.io/search-engine-react-semantic-ui/
