@@ -24,10 +24,9 @@ class App extends React.Component {
 	render() {
 		return (
 			<div className='ui container' style={{ marginTop: "10px" }}>
-				<Helmet bodyAttributes={{ style: "background-color : #fff" }} />
+				<Helmet bodyAttributes={{ style: "background-color : #263238" }} />
 				<SearchBar onSubmit={this.onSearchSubmit} />
-				Found {this.state.images.length} images.
-				<ImageList />
+				<ImageList images={this.state.images} />
 			</div>
 		);
 	}

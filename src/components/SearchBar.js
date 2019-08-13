@@ -11,14 +11,14 @@ class SearchBar extends React.Component {
 
 	render() {
 		return (
-			<div className='ui segment center aligned'>
-				<div className='ui icon header'>
-					<i className='search icon' />
-					Search images
-				</div>
+			<div
+				className='ui segment center aligned'
+				style={{ backgroundColor: "#B0BEC5" }}>
+				<div className='ui icon header'>Search images</div>
 				<form onSubmit={this.onFormSubmit} className='ui form'>
 					<div className='field'>
-						<div className='ui input'>
+						<div className='ui input left icon'>
+							<i className='search icon' />
 							<input
 								type='text'
 								placeholder='Search...'
