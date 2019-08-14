@@ -24,11 +24,17 @@ class App extends React.Component {
 
 	render() {
 		return (
-			<div className='ui container' style={{ marginTop: "10px" }}>
-				<Message />
-				<Helmet bodyAttributes={{ style: "background-color : #263238" }} />
-				<SearchBar onSubmit={this.onSearchSubmit} />
-				<ImageList images={this.state.images} />
+			<div className='App'>
+				<div className='ui container' style={{ marginTop: "10px" }}>
+					<Message
+						title='App under construction!'
+						body='Please take in mind that this application is at an early stage of
+				development.'
+					/>
+					<Helmet bodyAttributes={{ style: "background-color : #263238" }} />
+					<SearchBar onSubmit={this.onSearchSubmit} />
+					<ImageList images={this.state.images} />
+				</div>
 			</div>
 		);
 	}

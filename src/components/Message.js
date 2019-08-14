@@ -1,14 +1,11 @@
 import React from "react";
 
-const Message = () => {
+const Message = props => {
 	return (
 		<div className='ui info message'>
 			{/* <i className='close icon' /> */}
-			<div className='header'>App under construction!</div>
-			<p>
-				Please take in mind that this application is at an early stage of
-				development.
-			</p>
+			<div className='header'>{props.title}</div>
+			<p>{props.body}</p>
 		</div>
 	);
 };
