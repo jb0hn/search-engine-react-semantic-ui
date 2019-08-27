@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/search-engine-react-semantic-ui/static/css/main.04360a73.chunk.css",
-    "main.js": "/search-engine-react-semantic-ui/static/js/main.1e5575d2.chunk.js",
-    "main.js.map": "/search-engine-react-semantic-ui/static/js/main.1e5575d2.chunk.js.map",
-    "runtime~main.js": "/search-engine-react-semantic-ui/static/js/runtime~main.962b4aeb.js",
-    "runtime~main.js.map": "/search-engine-react-semantic-ui/static/js/runtime~main.962b4aeb.js.map",
-    "static/js/2.95fbf817.chunk.js": "/search-engine-react-semantic-ui/static/js/2.95fbf817.chunk.js",
-    "static/js/2.95fbf817.chunk.js.map": "/search-engine-react-semantic-ui/static/js/2.95fbf817.chunk.js.map",
+    "main.css": "/search-engine-react-semantic-ui/static/css/main.7e57ad4b.chunk.css",
+    "main.js": "/search-engine-react-semantic-ui/static/js/main.7357f32b.chunk.js",
+    "main.js.map": "/search-engine-react-semantic-ui/static/js/main.7357f32b.chunk.js.map",
+    "runtime~main.js": "/search-engine-react-semantic-ui/static/js/runtime~main.7df5c093.js",
+    "runtime~main.js.map": "/search-engine-react-semantic-ui/static/js/runtime~main.7df5c093.js.map",
+    "static/js/2.9d9deb5e.chunk.js": "/search-engine-react-semantic-ui/static/js/2.9d9deb5e.chunk.js",
+    "static/js/2.9d9deb5e.chunk.js.map": "/search-engine-react-semantic-ui/static/js/2.9d9deb5e.chunk.js.map",
     "index.html": "/search-engine-react-semantic-ui/index.html",
-    "precache-manifest.a673204c9da812aaffc53de15171a849.js": "/search-engine-react-semantic-ui/precache-manifest.a673204c9da812aaffc53de15171a849.js",
+    "precache-manifest.ca04993eea83fe4fbd83b27be7a4671d.js": "/search-engine-react-semantic-ui/precache-manifest.ca04993eea83fe4fbd83b27be7a4671d.js",
     "service-worker.js": "/search-engine-react-semantic-ui/service-worker.js",
-    "static/css/main.04360a73.chunk.css.map": "/search-engine-react-semantic-ui/static/css/main.04360a73.chunk.css.map"
+    "static/css/main.7e57ad4b.chunk.css.map": "/search-engine-react-semantic-ui/static/css/main.7e57ad4b.chunk.css.map"
   }
 }
